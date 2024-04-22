@@ -1,0 +1,218 @@
+.heading{
+    text-align: center;
+  }
+   .heading span{
+   font-weight: 300;
+   color: var(--main-color);
+   margin: 10px 20px;
+  }
+   .heading h2{
+    margin-top: 20px;
+  }
+   .heading p{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .news{
+    padding: var(--section-padding) 0;
+  }
+  .news .content{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 20px;
+    padding-top :30px;
+  
+  }
+  .news .content .box{
+    flex: 1 1 17rem;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   border-radius: 10px;
+  }
+  .news .content .box:hover{
+    background-color: #f6f6f6;
+  }
+  .news .content .box img{
+    max-width: 100%;
+    margin: 20px 0;
+  }
+  .news .content .box span {
+    font-size: 14px;
+    color: var(--main-color);
+  } 
+  .news .content .box h3 {
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+  } 
+  .news .content .box p{
+    font-size: 16px;
+    margin: 10px 10px;
+  } 
+  .news .content .box .more {
+    font-size: 16px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 4px;
+    color: var(--text-color);
+    margin: 4px 0;
+  } .news .content .box .more i{
+    padding-left: 10px;
+  }
+  .news .content  .box .more:hover{
+    font-size: 20px;
+    color: var(--main-color);
+    transform: 0.45s;
+  }
+
+  .contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+  }
+
+  .contact-info{
+    flex: 1 1 20rem;
+  }
+
+  .contact-form{
+    display: flex;
+    justify-content: center;
+  }
+
+  footer{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border-top: 1px solid var(--main-color);
+     
+  }
+  footer .content{
+   display: flex;
+   flex-wrap:wrap;
+   gap: 20px;
+   padding:50px;
+   
+  }
+  footer  .content .box{
+  flex: 1 1 13rem;
+  display: flex;
+  flex-direction: column;
+ }
+ @media (max-width:767px) {
+   
+   footer .content .box {
+     text-align: center;
+   }
+ }
+ footer .content .box   h2{
+   color: var(--bg-color);
+   font-size:30px ;
+   font-weight: 400;
+   margin-bottom: 16px;
+ }
+ footer  .content .box a{
+   color: #818181;
+   margin-bottom: 16px;
+ 
+ }
+ footer  .content .box a:hover{
+   color: var(--bg-color);
+ }
+ /* logo  */
+ footer .content .box .logo{
+     font-size: 30px;
+     font-weight: 700;
+     cursor: pointer;
+     color:white;
+     margin-bottom:20px ;
+ }
+ footer .content .logo span{
+   color: var(--main-color);
+ }
+ /* social */
+ footer .content .box  .social{
+   display: flex;
+   align-items: center;
+ }
+ @media (max-width:767px) {
+   
+   footer .content .box .social {
+     justify-content: center;
+     align-items: center;
+   }
+ }
+ footer .content .box  .social a{
+   color: var(--bg-color);
+   font-size: 24px;
+   margin-left: 14px;
+ }
+ footer .content .box  .social a:hover{
+   color: var(--main-color);
+ }
+ /* copyright */
+ footer .copyright{
+   padding-top: 30px;
+   text-align: center;
+ }
+ footer .copyright h2{
+   font-size: 20px;
+   font-weight: 500;
+   color: #818181;
+   margin-bottom: 20px;
+ }
+ footer .copyright h2 span{
+   color: #814953;
+ }
+ /* developper */
+ footer .dev{
+   padding-top: 30px;
+   padding-bottom:30px ;
+   text-align: right;
+   border-top: 1px solid #818181;
+ }
+ @media (max-width:767px) {
+   
+   footer .dev {
+     text-align: center;
+   }
+ }
+ footer .dev h2{
+   display: inline;
+   font-size: 20px;
+   font-weight: 500;
+   color: #bdb1b1;
+   margin-bottom: 20px;
+ }
+ footer .dev p{
+   display: inline;
+   font-size: 20px;
+   font-weight: 500;
+   color: var(--bg-color);
+ }
+ footer .dev p span{
+   color: var(--main-color);
+ }
+ .header{
+  margin-top: 0;
+  height: 20vh;
+  width: 100%;
+  background-color: rgb(8, 72, 115);
+  position: absolute;
+  
+}
+.header h1{
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  padding-top: 0;
+  margin-top: 40px;
+  margin-left: 100px;
+  color: white;
+}
